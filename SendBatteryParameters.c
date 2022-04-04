@@ -15,6 +15,7 @@ int countParametersNumber(FILE *fp) {
             count = count + 1;
         }
   }
+  printf("%d\n",count);
   return count;
 }
 
