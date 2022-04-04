@@ -6,7 +6,7 @@ void printOnConsole(double soc, double temp) {
         printf("%lf\t%lf\n",soc,temp);
 }
 
-int countParametersNumber(File *fp) {
+int countParametersNumber(FILE *fp) {
   char c;
   int count = 0;
   for (c = getc(fp); c != EOF; c = getc(fp))
@@ -34,6 +34,6 @@ int readAndPrintParametsOnConsole(void)
 {
   double soc = 4, temp = 90;
   int status = readParametersFromFile();
-  printOnConsole(soc,temp)
+  printOnConsole(soc,temp);
   return status;
 }
