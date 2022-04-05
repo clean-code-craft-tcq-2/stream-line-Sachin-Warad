@@ -4,5 +4,6 @@
 #include "SendBatteryParameters.h"
 
 TEST_CASE("Verify Read parameters from file") {
-  readAndPrintParametsOnConsole();
+  double temp[NoOfSamples], soc[NoOfSamples];
+  readAndPrintParamets(temp,soc);
 }
