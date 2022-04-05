@@ -1,4 +1,5 @@
+#define NoOfSamples 50
+
 void printOnConsole(double soc, double temp);
-int countParametersNumber(FILE *fp);
-int readParametersFromFile(void);
-int readAndPrintParametsOnConsole(void);
+int readParametersFromFile(double temp[], double soc[]);
+int readAndPrintParamets(double temp[], double soc[]);
