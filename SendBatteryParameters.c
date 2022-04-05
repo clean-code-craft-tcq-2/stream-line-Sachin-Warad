@@ -6,10 +6,10 @@ void printOnConsole(double temp, double soc) {
         printf("%.0f\t%0.f\n",soc,temp);
 }
 
-void readParametersFromFile(double temp[], double soc[])
+int readParametersFromFile(double temp[], double soc[], char *fileName)
 {
   FILE *fp;
-  fp = fopen("BatteryParameters.txt", "r");
+  fp = fopen(fileName, "r");
   if(fp != NULL)
   {
     float tempFromFile, socFromFile;
@@ -18,14 +18,18 @@ void readParametersFromFile(double temp[], double soc[])
         temp[i] = tempFromFile;
         soc[i] = socFromFile;
     }
-    fclose(fp); 
+    fclose(fp);
+    return STATUS_OK
   }
+  fclose(fp);
+  return STATUS_NotOK
 }
 
-void readAndPrintParamets(double temp[], double soc[], void (*fn_ptrPrintOutput)(double temp, double soc)) 
+int readAndPrintParamets(double temp[], double soc[], void (*fn_ptrPrintOutput)(double temp, double soc), char *fileName) 
 {
-  readParametersFromFile(temp,soc);
+  int status = readParametersFromFile(temp,soc,fileName);
   for(int i=0; i<NoOfSamples; i++) {
       fn_ptrPrintOutput(soc[i],temp[i]);
   }
+  return status;
 }
