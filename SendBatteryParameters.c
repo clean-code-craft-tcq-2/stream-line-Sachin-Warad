@@ -19,10 +19,10 @@ int readParametersFromFile(double temp[], double soc[], char *fileName)
         soc[i] = socFromFile;
     }
     fclose(fp);
-    return STATUS_OK
+    return STATUS_OK;
   }
   fclose(fp);
-  return STATUS_NotOK
+  return STATUS_NotOK;
 }
 
 int readAndPrintParamets(double temp[], double soc[], void (*fn_ptrPrintOutput)(double temp, double soc), char *fileName) 
