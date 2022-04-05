@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "SendBatteryParameters.h"
 
-void printOnConsole(double soc, double temp) {
-        printf("%lf\t%lf\n",soc,temp);
+void printOnConsole(double temp, double soc) {
+        printf("%.0f\t%0.f\n",soc,temp);
 }
 
-int readParametersFromFile(double temp[], double soc[])
+void readParametersFromFile(double temp[], double soc[])
 {
   FILE *fp;
   fp = fopen("BatteryParameters.txt", "r");
@@ -19,16 +19,13 @@ int readParametersFromFile(double temp[], double soc[])
         soc[i] = socFromFile;
     }
     fclose(fp); 
-    return 1;
   }
-  fclose(fp);
-  return 0;
 }
 
-int readAndPrintParamets(double temp[], double soc[]) 
+void readAndPrintParamets(double temp[], double soc[], void (*fn_ptrPrintOutput)(double temp, double soc)) 
 {
-  //int socp = 4, tempp=5;
-  int  status = readParametersFromFile(temp,soc);
-  printOnConsole(soc[1],temp[1]);
-  return status;
+  readParametersFromFile(temp,soc);
+  for(int i=0; i<NoOfSamples; i++) {
+      fn_ptrPrintOutput(soc[i],temp[i]);
+  }
 }
