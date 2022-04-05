@@ -21,7 +21,6 @@ int readParametersFromFile(double temp[], double soc[], char *fileName)
     fclose(fp);
     return STATUS_OK;
   }
-  fclose(fp);
   return STATUS_NotOK;
 }
 
