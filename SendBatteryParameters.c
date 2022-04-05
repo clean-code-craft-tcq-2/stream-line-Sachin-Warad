@@ -6,35 +6,29 @@ void printOnConsole(double soc, double temp) {
         printf("%lf\t%lf\n",soc,temp);
 }
 
-int countParametersNumber(FILE *fp) {
-  char c;
-  int count = 0;
-  for (c = getc(fp); c != EOF; c = getc(fp))
-  {
-        if (c == '\n') {
-            count = count + 1;
-        }
-  }
-  printf("%d\n",count);
-  return count;
-}
-
-int readParametersFromFile(void)
+int readParametersFromFile(double temp[], double soc[])
 {
   FILE *fp;
   fp = fopen("BatteryParameters.txt", "r");
   if(fp != NULL)
   {
-    int numberofParameters = countParametersNumber(fp);
+    float tempFromFile, socFromFile;
+    for(int i=0;fscanf(file, "%f\t%f\n", &tempFromFile,&socFromFile)!=EOF ;i++)
+    {
+        temp[i] = tempFromFile;
+        soc[i] = socFromFile;
+    }
+    fclose(fp); 
     return 1;
   }
+  fclose(fp);
   return 0;
 }
 
-int readAndPrintParametsOnConsole(void) 
+int readAndPrintParamets(double temp[], double soc[]) 
 {
-  double soc = 4, temp = 90;
-  int status = readParametersFromFile();
-  printOnConsole(soc,temp);
+  //int socp = 4, tempp=5;
+  int  status = readParametersFromFile(temp,soc);
+  printOnConsole(soc[1],temp[1]);
   return status;
 }
