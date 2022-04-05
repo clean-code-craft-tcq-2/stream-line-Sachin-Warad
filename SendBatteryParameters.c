@@ -13,7 +13,7 @@ int readParametersFromFile(double temp[], double soc[])
   if(fp != NULL)
   {
     float tempFromFile, socFromFile;
-    for(int i=0;fscanf(file, "%f\t%f\n", &tempFromFile,&socFromFile)!=EOF ;i++)
+    for(int i=0;fscanf(fp, "%f\t%f\n", &tempFromFile,&socFromFile)!=EOF ;i++)
     {
         temp[i] = tempFromFile;
         soc[i] = socFromFile;
