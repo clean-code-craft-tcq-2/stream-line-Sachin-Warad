@@ -5,5 +5,7 @@
 
 TEST_CASE("Verify Read parameters from file") {
   double temp[NoOfSamples], soc[NoOfSamples];
-  readAndPrintParamets(temp,soc);
+  void (*fn_ptrPrintOutput)(double, double);
+  fn_ptrPrintOutput = &printOnConsole;
+  readAndPrintParamets(temp,soc,fn_ptrPrintOutput);
 }
