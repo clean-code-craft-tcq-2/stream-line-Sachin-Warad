@@ -7,5 +7,7 @@ TEST_CASE("Verify Read parameters from file") {
   double temp[NoOfSamples], soc[NoOfSamples];
   void (*fn_ptrPrintOutput)(double, double);
   fn_ptrPrintOutput = &printOnConsole;
-  readAndPrintParamets(temp,soc,fn_ptrPrintOutput);
+  char fileName[20] = "BatteryParameters.txt";
+  int readStatus = readAndPrintParamets(temp,soc,fn_ptrPrintOutput,fileName);
+  REQUIRE(readStatus == STATUS_OK);
 }
