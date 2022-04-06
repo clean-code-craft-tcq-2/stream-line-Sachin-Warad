@@ -27,7 +27,7 @@ int readParametersFromFile(double temp[], double soc[], char *fileName)
 int readAndPrintParamets(double temp[], double soc[], void (*fn_ptrPrintOutput)(double temp, double soc), char *fileName) 
 {
   int status = readParametersFromFile(temp,soc,fileName);
-  if(status = STATUS_OK)
+  if(status == STATUS_OK)
   {
       for(int i=0; i<NoOfSamples; i++) 
       {
