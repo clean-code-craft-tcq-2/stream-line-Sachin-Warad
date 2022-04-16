@@ -3,7 +3,7 @@
 #include "SendBatteryParameters.h"
 
 void printOnConsole(double temp, double soc) {
-        printf("%.0f, %0.f\n",soc,temp);
+        printf("Temperature: %.0f, SOC: %0.f\n",temp,soc);
 }
 
 int readParametersFromFile(double temp[], double soc[], char *fileName)
@@ -31,7 +31,7 @@ int readAndPrintParamets(double temp[], double soc[], void (*fn_ptrPrintOutput)(
   {
       for(int i=0; i<NoOfSamples; i++) 
       {
-        fn_ptrPrintOutput(soc[i],temp[i]);
+        fn_ptrPrintOutput(temp[i],soc[i]);
       }
   }
   return status;
