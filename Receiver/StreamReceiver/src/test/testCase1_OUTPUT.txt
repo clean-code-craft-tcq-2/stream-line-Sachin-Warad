@@ -1,0 +1,350 @@
+Max Temp: 2.0
+Min Temp: 2.0
+Max Amp: 32.0
+Min Amp: 32.0
+sma50 Temp: 0.0
+sma50 Amp: 0.0
+
+Max Temp: 2.0
+Min Temp: 1.0
+Max Amp: 45.0
+Min Amp: 32.0
+sma50 Temp: 0.0
+sma50 Amp: 0.0
+
+Max Temp: 19.0
+Min Temp: 1.0
+Max Amp: 45.0
+Min Amp: 32.0
+sma50 Temp: 0.0
+sma50 Amp: 0.0
+
+Max Temp: 44.0
+Min Temp: 1.0
+Max Amp: 45.0
+Min Amp: 32.0
+sma50 Temp: 0.0
+sma50 Amp: 0.0
+
+Max Temp: 57.0
+Min Temp: 1.0
+Max Amp: 46.0
+Min Amp: 32.0
+sma50 Temp: 24.6
+sma50 Amp: 40.2
+
+Max Temp: 67.0
+Min Temp: 1.0
+Max Amp: 78.0
+Min Amp: 32.0
+sma50 Temp: 37.6
+sma50 Amp: 49.4
+
+Max Temp: 67.0
+Min Temp: 1.0
+Max Amp: 78.0
+Min Amp: 3.0
+sma50 Temp: 38.8
+sma50 Amp: 41.0
+
+Max Temp: 67.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 39.4
+sma50 Amp: 54.0
+
+Max Temp: 67.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 40.6
+sma50 Amp: 57.2
+
+Max Temp: 67.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 36.0
+sma50 Amp: 57.6
+
+Max Temp: 77.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 38.0
+sma50 Amp: 59.8
+
+Max Temp: 77.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 45.6
+sma50 Amp: 76.8
+
+Max Temp: 77.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 53.8
+sma50 Amp: 72.6
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 61.0
+sma50 Amp: 78.4
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 65.2
+sma50 Amp: 75.4
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 50.2
+sma50 Amp: 64.2
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 99.0
+Min Amp: 3.0
+sma50 Temp: 42.6
+sma50 Amp: 54.0
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 40.0
+sma50 Amp: 58.4
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 26.2
+sma50 Amp: 58.4
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 16.8
+sma50 Amp: 62.2
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 18.2
+sma50 Amp: 73.2
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 27.0
+sma50 Amp: 78.2
+
+Max Temp: 86.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 32.8
+sma50 Amp: 74.8
+
+Max Temp: 100.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 49.4
+sma50 Amp: 77.0
+
+Max Temp: 100.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 52.8
+sma50 Amp: 73.8
+
+Max Temp: 100.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 68.8
+sma50 Amp: 67.4
+
+Max Temp: 100.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 68.4
+sma50 Amp: 65.2
+
+Max Temp: 100.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 70.4
+sma50 Amp: 57.6
+
+Max Temp: 109.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 72.2
+sma50 Amp: 50.8
+
+Max Temp: 109.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 70.0
+sma50 Amp: 58.0
+
+Max Temp: 109.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 53.6
+sma50 Amp: 58.0
+
+Max Temp: 109.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 61.4
+sma50 Amp: 66.8
+
+Max Temp: 112.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 66.0
+sma50 Amp: 77.6
+
+Max Temp: 112.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 56.4
+sma50 Amp: 75.8
+
+Max Temp: 112.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 69.2
+sma50 Amp: 80.0
+
+Max Temp: 112.0
+Min Temp: 1.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 68.2
+sma50 Amp: 80.4
+
+Max Temp: 112.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 50.6
+sma50 Amp: 81.4
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 50.8
+sma50 Amp: 68.0
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 48.0
+sma50 Amp: 70.4
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 44.8
+sma50 Amp: 61.0
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 44.6
+sma50 Amp: 58.2
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 49.0
+sma50 Amp: 48.8
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 46.2
+sma50 Amp: 55.4
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 53.2
+sma50 Amp: 61.0
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 43.0
+sma50 Amp: 58.4
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 44.4
+sma50 Amp: 67.2
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 55.6
+sma50 Amp: 76.4
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 51.2
+sma50 Amp: 78.8
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 57.2
+sma50 Amp: 79.2
+
+Max Temp: 113.0
+Min Temp: 0.0
+Max Amp: 100.0
+Min Amp: 3.0
+sma50 Temp: 77.6
+sma50 Amp: 92.6
+
