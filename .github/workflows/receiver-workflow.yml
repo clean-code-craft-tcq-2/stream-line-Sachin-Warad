@@ -22,8 +22,13 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Install maven
+      run: |
+        ...
     - name: Build and Generate coverage
-      run: mvn test jacoco:report
+      run: |
+        cd ./Receiver/StreamReceiver
+        mvn test jacoco:report
     - name: Upload coverage
       uses: actions/upload-artifact@v2
       with:
