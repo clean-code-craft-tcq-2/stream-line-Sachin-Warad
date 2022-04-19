@@ -22,9 +22,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Install maven
-      run: |
-        ...
     - name: Build and Generate coverage
       run: |
         cd ./Receiver/StreamReceiver
