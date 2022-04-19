@@ -7,9 +7,13 @@ on:
   push:
     paths:
     - 'Receiver/**'
+    paths-ignore:
+    - '**.md'
   pull_request:
     paths:
     - 'Receiver/**'
+    paths-ignore:
+    - '**.md'
 
 jobs:
   build:
